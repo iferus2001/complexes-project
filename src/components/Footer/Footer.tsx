@@ -70,19 +70,13 @@ export function Footer() {
           </div>
         </div>
         <div className="flex relative -space-x-120 max-2xl:hidden">
-          <h2 className="font-regular text-8xl absolute top-15 left-1">
+          <h2 className="font-regular text-8xl absolute top-15 z-40 left-1 mix-blend-luminosity">
             Якість
           </h2>
-          <img className="object-cover" src="FooterImg-1.png" />
-          <div className=" bg-color-black">
-            <img
-              className="object-cover rounded-full"
-              src="FooterImg-2.png"
-            />{" "}
-          </div>
-
-          <h4 className="font-regular text-8xl absolute right-1 bottom-15 ">
-            Понад усе
+          <img className="object-cover z-30" src="FooterImg-1.png" />
+          <img className="object-cover z-20" src="FooterImg-2.png" />
+          <h4 className="font-regula text-8xl z-40 absolute right-1 bottom-10 ">
+            понад усе
           </h4>
         </div>
       </div>
