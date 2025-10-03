@@ -73,8 +73,7 @@ export function ComplexesSection() {
         {hasMore && (
           <button
             onClick={handleLoadMore}
-            className="relative font-medium
-            after:block after:h-[1px] after:bg-black after:scale-x-0 after:transition-transform after:duration-300
+            className="relative font-medium cursor-pointer after:block after:h-[1px] after:bg-black after:scale-x-0 after:transition-transform after:duration-300
             hover:after:scale-x-105
 "
           >
@@ -88,7 +87,7 @@ export function ComplexesSection() {
         {showHideButton && (
           <button
             onClick={handleHideAll}
-            className="relative font-medium
+            className="relative font-medium cursor-pointer
             after:block after:h-[1px] after:bg-black after:scale-x-0 after:transition-transform after:duration-300
             hover:after:scale-x-100
 "
