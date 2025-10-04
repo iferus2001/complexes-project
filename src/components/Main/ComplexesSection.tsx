@@ -59,7 +59,9 @@ export function ComplexesSection() {
 
   return (
     <div ref={sectionRef}>
-      <h2 className="font-medium text-5xl">Збудовані обʼєкти</h2>
+      <h2 className="font-medium text-5xl text-nowrap max-sm:text-wrap max-sm:text-center">
+        Збудовані обʼєкти
+      </h2>
       <Filter
         types={types}
         activeType={activeType}

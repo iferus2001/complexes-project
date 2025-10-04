@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="relative w-full h-[468px] overflow-hidden">
+    <header className="relative w-screen h-[468px] overflow-hidden">
       <h1 className="absolute  top-1/11 start-1/2 -translate-x-1/2 text-3xl text-center z-10">
         Company Logo
       </h1>
